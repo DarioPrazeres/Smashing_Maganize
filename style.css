@@ -1,0 +1,132 @@
+
+
+.main_header{
+    background-color: #d33A2c;
+    margin-top: 0%;
+    padding-bottom: 10%;
+    
+    color: white;
+} 
+.header_top{
+    display: flex;
+}
+.serch{
+    height: 53px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 15px;
+    
+}
+.serch input{
+    border: none;
+    color: silver;
+    font-size: 25px;
+}
+
+.menu-button{
+    width: 142px;
+    height: 42px;
+    background-color: #9b1509;
+    margin-top: 5%;
+    
+    margin-left: 40%;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    align-items: center;
+}
+.head_post{
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: 145px auto;
+    gap: 10px;
+}
+.author_photo{
+    
+    width: 192px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.author_photo a img{
+    margin: auto;
+    transform: rotate(-15deg);
+    border-radius: 15px;
+    border: 5px solid #d33A2c;
+    background-color: black;
+}
+footer
+{
+    background-color: #d33A2c;
+    color: white;
+    font-family: Elena sans-serif;
+    font-size: 14.4px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin: auto;
+}
+.author{
+    color:rgb(126, 125, 125); 
+}
+.me_red{
+    color: #d33A2c;
+}
+.disc_post h1 a{
+    text-decoration: none;
+    color: black;
+    text-transform: none;
+    line-height: 0.5;
+} 
+.disc_post .disc a{
+    color: rgb(73, 72, 72);
+}
+
+footer .topics_footer ul{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+footer .topics_footer ul li {
+    padding: 10px 0px;
+}
+footer .topics_footer ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+footer p{
+    text-align: center;
+}
+footer  a{
+        color: white;
+}
+footer .second_topic ul li{
+    list-style-type: disc;
+    display: inline;
+}
+footer .second_topic ul{
+    margin: 0px auto;
+    padding: 1em 0px;
+    text-align: center;
+    max-width: 30em;
+}
+footer .second_topic ul li {
+    padding: 10px 0px;
+    line-height: 44px;
+    word-break: break-word;
+    margin-right: 2%;
+}
+footer .second_topic ul li a{
+    padding: 10px 0px;
+}
