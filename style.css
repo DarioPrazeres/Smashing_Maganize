@@ -1,5 +1,10 @@
 
-
+h1 a{
+    text-decoration: none;
+    color: black;
+    text-transform: none;
+    line-height: 0.5;
+}
 .main_header{
     background-color: #d33A2c;
     margin-top: 0%;
@@ -45,7 +50,8 @@
     justify-content: center;
     align-items: center;
 }
-.head_post{
+.head_post,
+.other_articles{
     display: grid;
     grid-template-columns: auto ;
     grid-template-rows: 145px auto;
@@ -60,7 +66,23 @@
     align-items: center;
     
 }
+.other_photo{
+    width: 145px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    
+}
 .author_photo a img{
+    margin: auto;
+    transform: rotate(-15deg);
+    border-radius: 15px;
+    border: 5px solid #d33A2c;
+    background-color: black;
+}
+.other_photo a img{
     margin: auto;
     transform: rotate(-15deg);
     border-radius: 15px;
@@ -89,7 +111,8 @@ footer
     text-transform: none;
     line-height: 0.5;
 } 
-.disc_post .disc a{
+.disc_post .disc a,
+.me_silver{
     color: rgb(73, 72, 72);
 }
 
