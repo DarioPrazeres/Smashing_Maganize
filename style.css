@@ -116,6 +116,220 @@ footer
     color: rgb(73, 72, 72);
 }
 
+.me_italic{
+    font-style: italic;
+    
+}
+.img_promo{
+    position: relative;
+    height: 125px;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.img_promo img{
+    position: absolute;
+    left: 30%;
+    top:0%;
+    
+}
+.promo_box{
+    width: 90%;
+    margin: auto;
+    padding-top: 125px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #E7F8FF;
+    border-radius: 11px;
+}
+.promo_title{
+    width: 220px;
+    height: 50px;
+    padding: 10px 15px;
+    border-radius: 11px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 2px 6px 0px; ;
+    
+    background-color: #ffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Mija;
+    color:#d33A2c;
+}
+.promo_theme{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 1;
+    font-size: 27px;
+}
+.promo_box_para{
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.promo_box_para a{
+    color: #006FC6;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 381px;
+    height: 60px;
+    
+    color: white;
+    
+    padding: 0px 0px 10px;
+    margin: auto;
+
+    
+}
+.form input{
+    width: 275px;
+    border: none;
+    border-radius: 11px 0px 0px 11px;
+    font-style: italic;
+    font-size: 20px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 2px 6px 0px; ;
+}
+.form button{
+    width: 95px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 2px 6px 0px; ;
+    border-radius: 0px 11px 11px 0px;
+    
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+
+    background-color: #0168B8;
+    color: white;
+}
+.suggest{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 360px 360px;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    
+   
+}
+.item{
+    
+    
+    box-shadow: rgb(0 0 0 / 60%) 0px 2px 6px 0px; ;
+}
+.option{
+    width: 80%;
+    margin: auto;
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.option h1{
+    font-size: 26px;
+    margin-left: 1%;
+    text-decoration: underline;
+}
+
+
+.option p{
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+.option .button{
+    color: white;
+    font-family: Mija "Mija" sans-serif;
+    font-size: 20px;
+    border-radius: 11px;
+    border: none;
+    text-decoration: none;
+}
+.me_green{
+    background-color: rgb(241, 253, 248);
+    border-radius: 11px;
+}
+.me_green h1 a{
+    color: #18af18;
+}
+.me_orange h1 a{
+    color: #f55700;
+}
+.me_violet h1 a{
+    color: #AA1994;
+}
+.option_button{
+    background-color: #18af18;
+    
+    width: 250px;
+    height: 60px;
+    margin: auto;
+}
+.option_button_1{
+    background-color: #f55700;
+    
+    width: 250px;
+    height: 60px;
+    margin: auto;
+}
+.option_button_2{
+    background-color: #AA1994;
+    
+    width: 250px;
+    height: 60px;
+    margin: auto;
+}
+.me_orange{
+    background-color: #FEF1F0;
+    border-radius: 11px;
+}
+.me_violet{
+    background-color: #FBECF9;
+    border-radius: 11px;
+}
+.see_more{
+    padding: 20px;
+    text-align: center;
+}
+.see_more a{
+    
+    font-size: 14px;
+    color: #9b1509;
+    border-bottom: solid #9b1509 5px;
+    text-decoration: none;
+}
+.last a{
+    text-decoration: none;
+    border-top: 2px solid #d33A2c;
+    font-size: 20px;
+}
+.last_post{
+    width: 90%;
+    margin: auto;
+}
+.artigo{
+    display: flex;
+}
+.person_photo{
+    padding: 10px;
+    margin-right: 5px;
+    height: 80px;
+    width: 200px;
+}
+.person_photo img{
+    transform: rotate(-15deg);
+    border-radius: 15px;
+    border: 5px solid #d33A2c;
+    background-color: black;
+}
 footer .topics_footer ul{
     display: grid;
     grid-template-columns: 50% 50%;
