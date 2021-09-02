@@ -73,7 +73,7 @@ h1 a{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 1px black;
+    
     
 }
 .author_photo a img{
@@ -128,13 +128,11 @@ footer
     margin: auto;
     margin-top: 20px;
     
-}
-.img_promo img{
-    position: absolute;
-    left: 30%;
-    top:0%;
+    display: flex;
+    justify-content: center;
     
 }
+
 .promo_box{
     width: 95%;
     margin: auto;
@@ -179,29 +177,35 @@ footer
     display: flex;
     flex-wrap: wrap;
 
-    width: 381px;
-    height: 60px;
+    width: 80%;
+    
     
     color: white;
     
     padding: 0px 0px 10px;
     margin: auto;
 
-    
+   
 }
 .form input{
-    width: 275px;
+    width: 100%;
+    height: 50px;
+
+    margin-bottom: 5px;
     border: none;
-    border-radius: 11px 0px 0px 11px;
+    border-radius: 11px;
     font-style: italic;
     font-size: 20px;
     box-shadow: rgb(0 0 0 / 12%) 0px 2px 6px 0px; ;
 }
+
 .form button{
-    width: 95px;
+    width: 100%;
+    height: 50px;
     box-shadow: rgb(0 0 0 / 12%) 0px 2px 6px 0px; ;
-    border-radius: 0px 11px 11px 0px;
+    border-radius: 11px;
     
+    margin-top: 5px;
     padding: 15px 20px;
     font-size: 20px;
     border: none;
@@ -309,6 +313,7 @@ footer
     color: #9b1509;
     border-bottom: solid #9b1509 5px;
     text-decoration: none;
+    
 }
 .last a{
     text-decoration: none;
@@ -316,11 +321,13 @@ footer
     font-size: 20px;
 }
 .last_post{
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
 .artigo{
-    display: flex;
+    
+    padding: 10px;
+    margin: 2px;
 }
 .person_photo{
     padding: 10px;
@@ -333,6 +340,120 @@ footer
     border-radius: 15px;
     border: 5px solid #d33A2c;
     background-color: black;
+}
+.family_top{
+    text-align: center;
+}
+.family_top h1{
+    font-size: 30px;
+}
+.family_top h3{
+    color: #d33A2c;
+    font-size: 25px;
+}
+.container_family {
+    
+    scroll-snap-type: x mandatory;
+    display: flex;
+    
+   overflow: auto;
+    flex: none;
+    width: 100%;
+
+    
+}
+.one{
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+}
+.top{
+    position: relative;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+}
+.bottom{
+    padding: 125px 5px 5px 5px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 11px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 2px 6px 0px; ;
+    
+}
+.bottom h3{
+    font-size: 27px;
+}
+.books .bottom{
+    background-color: #f1fdf8;
+}
+.books button{
+    background-color: #18f46f;
+}
+.bottom button{
+    width: 20rem;
+    height: 50px;
+    color: white;
+    border: none;
+    font-size: 21px;
+    border-radius: 11px;
+    margin: 5px;
+}.workshop .bottom{
+    background-color: #E7F8FF;
+}
+.workshop button{
+    background-color: #006FC6;
+}
+.job .bottom{
+    background-color: #ffe5e2;
+}
+.job button{
+    background-color: #e62143;
+}
+.member .bottom{
+    background-color: #e3ffe5;
+}
+.member button{
+    background-color: #41b14f;
+}
+.boletim .bottom{
+    background-color: #ffe5e2;
+}
+.boletim button{
+    background-color: #e62143;
+}
+.work{
+    background-color: #1b71bb;
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+.section_work{
+    margin: auto;
+}
+.little{
+    font-size: 10px;
+}
+.work h2{
+    font-size: 37px;
+    
+}
+.work_p{
+    font-size: 21px;
+    
+}
+.work button{
+    color: #267dcc;
+    font-size: 20px;
+   
+    height: 50px;
+    border: none;
+    border-radius: 11px;
+    padding: 10px;
+}
+.work img{
+    width:90%; 
+    height:60%;
 }
 footer .topics_footer ul{
     display: grid;
