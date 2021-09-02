@@ -455,6 +455,15 @@ footer
     width:90%; 
     height:60%;
 }
+.contect{
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+.contect h5{
+    font-size: 16px;
+    color: #66666;
+}
 footer .topics_footer ul{
     display: grid;
     grid-template-columns: 50% 50%;
