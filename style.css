@@ -1,6 +1,4 @@
-*{
-    border: solid 1px black;
-}
+
 h1 a{
     text-decoration: none;
     color: black;
@@ -363,7 +361,7 @@ footer
    overflow: auto;
     flex: none;
     width: 100%;
-
+    border-right: 5px solid #0168B8;
     
 }
 .one{
@@ -509,6 +507,7 @@ footer .second_topic ul li a{
     .main_header{
         height: 100px;
         padding-bottom: 0px;
+        margin-bottom: 15px;
     
     }
     .header_top{
@@ -518,5 +517,87 @@ footer .second_topic ul li a{
         display: none;
         height:0px;
     }
-  
+    section.post{
+        display: flex;
+        padding-top: 5px;
+        width: 90%;
+        margin: auto;
+    }
+    .head_post,
+    .other_articles,
+    .suggest{
+        display: flex;
+        
+    }
+    .suggest{
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .item{
+        width: 25%;
+        margin: 10px;
+    }
+    .other_articles{
+        padding-bottom: 40px;
+    }
+    .last_posts{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 450px 450px 450px 450px;
+        grid-gap:10px;
+        margin: auto;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .container_family{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .family{
+        
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .work img{
+        padding-top: 5px;
+        width: 50%;
+        height: 25%;
+    }
+    .comunity{
+        width: 90%;
+        margin: auto;
+    }
+    .comunity_container{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-gap: 10px;
+        
+    }
+    .topics_footer h4{
+        width: 100%;
+        text-align: center;
+    }
+    footer .topics_footer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .topics_footer ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+        width: 70%;
+    }
+    footer .topics_footer ul li{
+        padding: 10px;
+        margin:5px;
+    }
+
 }
