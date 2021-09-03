@@ -1,4 +1,6 @@
-
+*{
+    border: solid 1px black;
+}
 h1 a{
     text-decoration: none;
     color: black;
@@ -14,6 +16,7 @@ h1 a{
 } 
 .header_top{
     display: flex;
+    position: relative;
 }
 .serch{
     height: 53px;
@@ -37,9 +40,7 @@ h1 a{
     width: 142px;
     height: 42px;
     background-color: #9b1509;
-    margin-top: 5%;
-    
-    margin-left: 40%;
+   
     color: white;
     font-size: 20px;
     border: none;
@@ -49,6 +50,9 @@ h1 a{
     align-items: stretch;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 2%;
 }
 
 .head_post,
@@ -446,7 +450,7 @@ footer
     color: #267dcc;
     font-size: 20px;
    
-    height: 50px;
+    height: 60px;
     border: none;
     border-radius: 11px;
     padding: 10px;
@@ -462,7 +466,7 @@ footer
 }
 .contect h5{
     font-size: 16px;
-    color: #66666;
+    color: #666666;
 }
 footer .topics_footer ul{
     display: grid;
@@ -500,4 +504,19 @@ footer .second_topic ul li {
 }
 footer .second_topic ul li a{
     padding: 10px 0px;
+}
+@media only screen and (min-width: 768px){
+    .main_header{
+        height: 100px;
+        padding-bottom: 0px;
+    
+    }
+    .header_top{
+        height:50px;  
+    }
+    .serch{
+        display: none;
+        height:0px;
+    }
+  
 }
