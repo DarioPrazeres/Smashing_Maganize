@@ -4,7 +4,7 @@
 
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Library</h1>
+<h1 align="center">Smashing Maganize clone</h1>
 
 
 <img src='https://img.shields.io/github/issues/DarioPrazeres/Smashing_Maganize'> <img src='https://img.shields.io/github/forks/DarioPrazeres/Smashing_Maganize'> <img src='https://img.shields.io/github/stars/DarioPrazeres/Smashing_Maganize'> <img src='https://img.shields.io/github/license/DarioPrazeres/Smashing_Maganize'> 
